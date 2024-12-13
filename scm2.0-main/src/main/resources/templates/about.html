@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+  <head>
+    <title>About Page</title>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Welcome to about page</h1>
+      <p>
+          Smart HR Contact Manager | Spring Boot, MySQL (Aug 2024)
+        <br>
+    The Smart HR Contact Manager is a web-based application designed to streamline the management of HR-related contacts with secure access, user-friendly features, and efficient data handling. This platform offers a modern solution for HR professionals to store, manage, and export contact information, enhancing organizational efficiency.
+<br>
+    Key Features:
+<br>
+  1. Secure User Authentication:
+<br>
+    Integrated OAuth-based login using Spring Security, allowing users to log in via Google and GitHub, ensuring secure and hassle-free access.
+<br>
+ 2. Personalized Dashboards:
+<br>
+    Each user can access a personalized dashboard for managing their HR contacts efficiently.
+<br>
+ 3. Responsive Frontend:
+<br>
+    Developed with Thymeleaf, TailwindCSS, and JavaScript to ensure a seamless and responsive user experience across devices.
+<br>
+  4. Robust Backend:
+<br>
+    Built using Spring Boot to handle HTTP requests, manage user sessions, and implement core business logic.
+<br>
+  5. Database Management:
+<br>
+    Designed and optimized MySQL databases to store HR contacts, user data, and associated files, ensuring data integrity and quick retrieval.
+<br>
+  6. File Storage:
+<br>
+    Integrated Cloudinary SDK to facilitate storing and managing user-uploaded profile pictures and documents.
+<br>
+  7. Export Functionality:
+<br>
+    Users can easily export contact information for offline use and reporting purposes.
+<br>
+  8. Automated Email Notifications:
+<br>
+    Implemented Java-based email services to send automated notifications, keeping users informed of updates and actions.
+      </p>
+    </div>
+    <script>
+      console.log("about page");
+    </script>
+    <script>
+      console.log("second about page script");
+    </script>
+  </body>
+</html>
